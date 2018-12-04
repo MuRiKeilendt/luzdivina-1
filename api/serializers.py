@@ -1,6 +1,6 @@
 from core.models import Comunidad, Boda, Bautizo, Comunion
 from rest_framework import serializers
-
+#Serializacion
 class ComunidadSerializers(serializers.ModelSerializer):
     class Meta:
         model = Comunidad
